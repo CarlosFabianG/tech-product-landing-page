@@ -11,3 +11,14 @@ body {
     margin-top: 8vh;
     text-align: center;
 }
+.card__container {
+    margin-top: 10vh;
+    display:flex;
+}
+.card {
+    border: gray solid 1px;
+}
+.card p {
+    font-size: 15px;
+    font-weight: 200;
+}

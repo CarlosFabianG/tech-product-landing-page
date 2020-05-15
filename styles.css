@@ -14,11 +14,22 @@ body {
 .card__container {
     margin-top: 10vh;
     display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .card {
+    color: hsl(234, 12%, 34%);
     border: gray solid 1px;
+    background-color: white;
+    width: 300px;
+    margin: 10px;
 }
 .card p {
     font-size: 15px;
     font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
+
+footer {
+    margin-top: 10vh;
 }

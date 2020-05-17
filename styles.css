@@ -2,7 +2,6 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: hsl(0, 0%, 98%);
 }
-
 .header {
     display: flex;
     justify-content: center;
@@ -19,11 +18,11 @@ body {
 }
 .card {
     color: hsl(234, 12%, 34%);
-    border: gray solid 1px;
     background-color: white;
     width: 300px;
     margin: 10px;
     padding: 15px;
+    box-shadow: 5px 5px 10px hsl(229, 14%, 85%);
 }
 .card p {
     font-size: 15px;

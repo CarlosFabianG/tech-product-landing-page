@@ -9,6 +9,19 @@ body {
 .header__container {
     margin-top: 8vh;
     text-align: center;
+    color: hsl(229, 6%, 66%);
+}
+.header__container h2 {
+    color: hsl(234, 12%, 34%);
+    margin: 0px;
+}
+.header__container h3 {
+    font-weight: 200;
+    margin: 0px;
+    font-size: 24px;
+}
+.header__container p {
+    font-size: 10px;
 }
 .card__container {
     margin-top: 10vh;
@@ -21,9 +34,8 @@ body {
     background-color: white;
     width: 300px;
     margin: 10px;
-    padding: 10px 15px;
+    padding: 10px 15px 15px 15px;
     box-shadow: 5px 5px 10px hsl(229, 14%, 85%);
-    border-top: 3px solid hsl(0, 78%, 62%);
 }
 .card p {
     font-size: 15px;
@@ -34,11 +46,19 @@ body {
   position: relative;
   left: 230px;
 }
-
 #card-supervisor {
     border-top: 3px solid hsl(180, 62%, 55%);
 }
-
+#card-builder {
+    border-top: 3px solid  hsl(0, 78%, 62%);
+    margin-bottom: 20px;
+}
+#card-karma {
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+#card-calculator {
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
 footer {
     margin-top: 10vh;
 }

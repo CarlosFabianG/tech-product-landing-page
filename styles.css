@@ -21,13 +21,22 @@ body {
     background-color: white;
     width: 300px;
     margin: 10px;
-    padding: 15px;
+    padding: 10px 15px;
     box-shadow: 5px 5px 10px hsl(229, 14%, 85%);
+    border-top: 3px solid hsl(0, 78%, 62%);
 }
 .card p {
     font-size: 15px;
     font-weight: 200;
     color: hsl(229, 6%, 66%);
+}
+.card img {
+  position: relative;
+  left: 230px;
+}
+
+#card-supervisor {
+    border-top: 3px solid hsl(180, 62%, 55%);
 }
 
 footer {

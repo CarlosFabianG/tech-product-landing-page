@@ -64,3 +64,9 @@ body {
     margin-top: 10vh;
 }
 
+@media only screen and (max-width:1065px) and (min-width:716px){
+    .card__container-2{
+        display: flex;
+        
+    }
+}
